@@ -32,7 +32,7 @@ abstract class PlatformDeviceIdPlatform extends PlatformInterface {
   }
 
   /// Get the platform device id - [String]
-  Future<String?> getDeviceId() {
+  Future<String> getDeviceId() {
     throw UnimplementedError('getDeviceId() has not been implemented.');
   }
 }

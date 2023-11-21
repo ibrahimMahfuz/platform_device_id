@@ -9,7 +9,7 @@ const MethodChannel _channel =
 
 class MethodChannelPlatformDeviceId extends PlatformDeviceIdPlatform {
   @override
-  Future<String?> getDeviceId() {
-    return _channel.invokeMethod<String?>('getDeviceId');
+  Future<String> getDeviceId() {
+    return _channel.invokeMethod<String>('getDeviceId');
   }
 }
